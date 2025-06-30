@@ -1,0 +1,18 @@
+{
+    "name": "adapt-contrib-openTextInput",
+    "version": "2.2.5",
+    "framework": ">=5.7.0",
+    "homepage": "TBD",
+    "authors": [
+        "Ally"
+    ],
+    "description": "A question component that allows the learner to input open text based upon a question stem.",
+    "main": "/js/adapt-contrib-openTextInput.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "component": "openTextInput",
+    "displayName": "Open Text Input",
+    "license": "GPLv3"
+}

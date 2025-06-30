@@ -1,0 +1,39 @@
+.opentextinput {
+  &__count-characters {
+    background: @item-color;
+    color: @item-color-inverted;
+    position: relative;
+
+    .opentextinput__count-amount {
+      font-weight: bold;
+    }
+  }
+
+  &__item-textbox {
+    display: block;
+    resize: none;
+    min-height: 8.75rem;
+    width: 100%;
+  }
+
+  &__hide-modelanswer {
+    display: none;
+    position: absolute;
+  }
+
+  &__show-modelanswer {
+    display: block;
+    position: relative;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
