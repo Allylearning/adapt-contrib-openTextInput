@@ -8,7 +8,9 @@
     </div>
 
     <div class="opentextinput__answer-container">
-      <label for="opentextinput-textarea" class="visually-hidden">{{prompt}}</label>
+      <label for="opentextinput-textarea" class="visually-hidden">
+        {{#if prompt}}{{prompt}}{{else}}Response field{{/if}}
+      </label>
       <textarea id="opentextinput-textarea"
                 class="opentextinput__item-textbox"
                 placeholder="{{placeholder}}"
@@ -18,9 +20,7 @@
 
     <div class="opentextinput__item-modelanswer opentextinput__item-textbox">
       {{{modelAnswer}}}
-      <label for="opentextinput-textarea" class="visually-hidden">
-        {{#if prompt}}{{prompt}}{{else}}Response field{{/if}}
-      </label>
+    </div>
 
     <div class="btn__container">
     </div>
