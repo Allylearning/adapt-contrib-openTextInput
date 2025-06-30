@@ -18,7 +18,9 @@
 
     <div class="opentextinput__item-modelanswer opentextinput__item-textbox">
       {{{modelAnswer}}}
-    </div>
+      <label for="opentextinput-textarea" class="visually-hidden">
+        {{#if prompt}}{{prompt}}{{else}}Response field{{/if}}
+      </label>
 
     <div class="btn__container">
     </div>
